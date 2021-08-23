@@ -1,0 +1,26 @@
+.subtitle-resume {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.home {
+  box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.timeline {
+  border-left: 2px solid #e0e0e0;
+  padding: 5px 0;
+}
+
+.scroll-container {
+  max-height: 500px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.scroll-container-skills {
+  max-height: 220px;
+  padding-left: 10px;
+  padding-right: 10px;
+}

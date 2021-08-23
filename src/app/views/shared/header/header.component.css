@@ -1,0 +1,46 @@
+
+.txt-color-1 {
+  color: #2196F3 !important;
+}
+
+.txt-color-2 {
+  color: #49515d !important;
+}
+
+.site-title {
+  font-family: Montserrat, Helvetica, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.nav-item {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.nav-link-active {
+  color: #1a1a1a;
+  font-weight: bold;
+  border-bottom: solid 3px #2196F3;
+}
+
+.nav-link:hover {
+  color: #1a1a1a;
+  font-weight: bold;
+  border-bottom: solid 2px #2196F3;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .menu-list {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .menu-modal {
+    display: none;
+  }
+
+}

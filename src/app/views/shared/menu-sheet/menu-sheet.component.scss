@@ -1,0 +1,42 @@
+mat-nav-list {
+  text-align: center;
+}
+
+span {
+  font-size: 23px !important;
+  font-weight: 500 !important;
+}
+
+span:hover {
+  color: #2196F3 !important;
+}
+
+.nav-active {
+  color: #2196F3 !important;
+}
+
+a {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 3px;
+  margin-right: 10px;
+}
+
+a:last-child {
+  margin-right: 0;
+}
+
+a:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0px;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+
+a:hover:after {
+  width: 50%;
+  background: #2196F3;
+}

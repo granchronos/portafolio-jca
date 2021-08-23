@@ -1,0 +1,43 @@
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+    <div class="container-fluid justify-content-between d-flex">
+      <div class="site-title pt-2">
+        <a href="" class="text-decoration-none">
+          <span class="txt-color-2">Antony</span> <span class="txt-color-1"> Velasquez</span>
+        </a>
+      </div>
+      <div>
+        <div class="menu-modal">
+          <img src="../../../../assets/img/icons/icon-menu.svg" (click)="openMenu()"
+               alt="" width="37" class="">
+        </div>
+        <ul class="navbar-nav menu-list">
+          <li class="nav-item me-2">
+            <a class="nav-link" routerLink="/home"
+               [routerLinkActive]="'nav-link-active'">Home</a>
+          </li>
+          <li class="nav-item me-2">
+            <a class="nav-link" routerLink="/resume"
+               [routerLinkActive]="'nav-link-active'">Resume</a>
+          </li>
+          <li class="nav-item me-2">
+            <a class="nav-link" routerLink="/services"
+               [routerLinkActive]="'nav-link-active'">Services</a>
+          </li>
+          <li class="nav-item me-2">
+            <a class="nav-link" routerLink="/portfolio"
+               [routerLinkActive]="'nav-link-active'">Portfolio</a>
+          </li>
+          <li class="nav-item me-2">
+            <a class="nav-link" routerLink="/contact"
+               [routerLinkActive]="'nav-link-active'">Contact</a>
+          </li>
+          <li class="nav-item me-2">
+            <a class="nav-link" routerLink="/blog"
+               [routerLinkActive]="'nav-link-active'">Blog</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>

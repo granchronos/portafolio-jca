@@ -1,0 +1,49 @@
+.service-block img {
+  max-width: 120px;
+  height: 64px;
+  margin: 38px 0;
+}
+
+.service-image {
+  width: 140px;
+  height: 140px;
+  background-color: #fafafa;
+  border-radius: 100px;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.service-image:hover {
+  -webkit-transform: translateY(-7px);
+  -ms-transform: translateY(-7px);
+  -o-transform: translateY(-7px);
+  transform: translateY(-7px);
+  -webkit-box-shadow: 0 7px 12px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 7px 12px rgba(0, 0, 0, 0.15);
+  -o-box-shadow: 0 7px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 7px 12px rgba(0, 0, 0, 0.15);
+}
+
+.client-block {
+  text-align: center;
+  padding: 5px 0;
+  opacity: .4;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.client-block:hover {
+  opacity: 1;
+}
+
+carousel {
+  height: 90px !important;
+}

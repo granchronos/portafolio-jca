@@ -1,0 +1,55 @@
+<div class="home">
+  <div class="page-header pt-4 pb-3">
+    <div>
+      <div class="row text-center">
+        <h2 class="title-block-2">Resume</h2>
+      </div>
+    </div>
+  </div>
+  <div class="row pt-4 pb-4 page-content">
+    <div class="row">
+      <div class="col-xs-12 col-sm-8 ps-sm-4">
+        <div>
+          <h3 class="subtitle-resume">Experience</h3>
+          <div class="overflow-auto scroll-container">
+            <div class="timeline" *ngFor="let ed of experienceList">
+              <app-timeline-item [item-data]="ed" [type]="'EX'"></app-timeline-item>
+            </div>
+          </div>
+        </div>
+        <div class="mt-4">
+          <h3 class="subtitle-resume">Education</h3>
+          <div class="overflow-auto scroll-container">
+            <div class="timeline" *ngFor="let ed of educationList">
+              <app-timeline-item [item-data]="ed" [type]="'ED'"></app-timeline-item>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4 ps-sm-4 my-usm-5">
+        <div>
+          <h3 class="subtitle-resume">Frontend <span class="txt-color-1">Skills</span></h3>
+          <div *ngFor="let sk of skillListFront">
+            <app-skill-bar [skill]="sk" [category]="'f'"></app-skill-bar>
+          </div>
+        </div>
+        <div class="mt-4">
+          <h3 class="subtitle-resume">Backend <span class="txt-color-1">Skills</span></h3>
+          <div *ngFor="let sk of skillListBack">
+            <app-skill-bar [skill]="sk" [category]="'b'"></app-skill-bar>
+          </div>
+        </div>
+        <div class="mt-4">
+          <h3 class="subtitle-resume">Cloud <span class="txt-color-1">Skills</span></h3>
+          <div *ngFor="let sk of skillListCloud">
+            <app-skill-bar [skill]="sk" [category]="'c'"></app-skill-bar>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <a href="../../../../../assets/files/CV_AntonyVelasquez_SE_v2.pdf" type="button"
+         class="btn btn-outline-secondary mt-4 mx-width-250 m-auto" download="CV-JULIO-VELASQUEZ.pdf">DOWNLOAD RESUME</a>
+    </div>
+  </div>
+</div>

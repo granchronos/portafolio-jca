@@ -1,0 +1,89 @@
+<div class="home">
+  <div class="page-header pt-4 pb-3">
+    <div>
+      <div class="row profile-header text-center">
+        <h2 class="title-block-2">Services</h2>
+      </div>
+    </div>
+  </div>
+  <div class="row pt-4 pb-4 page-content">
+    <div class="">
+      <section class="">
+        <div class=" col-sm-12 ">
+          <div class="block-title">
+            <h2>My<span class="txt-color-1"> Services</span></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 text-center">
+            <div class="fw-col-inner" data-paddings="0px 0px 0px 0px">
+              <div class="service-block">
+                <div class="service-info">
+                  <div class="service-image">
+                    <img src="../../../../../assets/img/icons/icon-microservices.svg"
+                         alt="Web Design">
+                  </div>
+                  <h4>Backend development</h4>
+                  <p>Development of services and microservices with technologies such as java or Nodejs.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class=" col-xs-12 col-sm-3 text-center">
+            <div id="col_inner_id-606bdc6bd848a" class="fw-col-inner" data-paddings="0px 0px 0px 0px">
+              <div class="service-block">
+                <div class="service-info">
+                  <div class="service-image">
+                    <img src="../../../../../assets/img/icons/icon-website.svg"
+                         alt="Photography">
+                  </div>
+                  <h4>Frontend Development</h4>
+                  <p>Development of Web Apps and PWA Applications with technologies such as Angular or ReactJS </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class=" col-xs-12 col-sm-3 text-center">
+            <div id="col_inner_id-606bdc6bd861c" class="fw-col-inner" data-paddings="0px 0px 0px 0px">
+              <div class="service-block">
+                <div class="service-info">
+                  <div class="service-image">
+                    <img src="../../../../../assets/img/icons/icon-cloud-dev.svg"
+                         alt="Management">
+                  </div>
+                  <h4>Cloud</h4>
+                  <p>Integration with cloud Iaas such as AWS and Azure</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class=" col-xs-12 col-sm-3 text-center">
+            <div id="col_inner_id-606bdc6bd87ad" class="fw-col-inner" data-paddings="0px 0px 0px 0px">
+
+              <div class="service-block">
+                <div class="service-info">
+                  <div class="service-image">
+                    <img src="../../../../../assets/img/icons/icon-smartphone.svg"
+                         alt="Advertising">
+                  </div>
+                  <h4>Apps Hybrid</h4>
+                  <p>Hybrid apps development with technologies such as ionic and React Native </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" col-sm-12 pt-4">
+          <div class="block-title">
+            <h2><span class="txt-color-1"> Companies</span> where I have worked</h2>
+          </div>
+        </div>
+        <carousel [autoplay]="true" [cellWidth]="100" [arrows]="false">
+          <div class="carousel-cell " *ngFor="let img of images">
+            <img src="{{img.path}}" width="80" alt="logo company" class="shadow">
+          </div>
+        </carousel>
+      </section>
+    </div>
+  </div>
+</div>

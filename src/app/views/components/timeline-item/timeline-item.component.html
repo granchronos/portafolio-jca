@@ -1,0 +1,12 @@
+<div class="timeline-item">
+  <h4 class="item-title">{{ type === 'EX' ? item.job_title : item.education_title}}</h4>
+  <span class="item-period font-rbt mb-1 mt-2 me-2">{{item.date_init}}
+    - {{(item.current ? 'Current' : item.date_end)}}</span>
+  <span class="item-small font-rbt mb-1 mt-2 ps-2">{{type === 'EX' ? item.company : item.institution}}</span>
+  <p class="item-location">{{item.location}}</p>
+  <p>{{item.description}}</p>
+  <button *ngIf="type==='EX'" class="btn btn-outline-primary" (click)="showDetails()">More details in my LinkedIn <img
+    class="ms-2"
+    src="../../../../assets/img/icons/icon-arrow-right.svg"
+    alt=""></button>
+</div>

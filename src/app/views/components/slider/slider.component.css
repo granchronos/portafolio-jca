@@ -1,0 +1,7 @@
+.carousel-inner {
+  color: #ffffff;
+}
+
+::ng-deep.mat-typography h3 {
+  font-family: 'Montserrat', sans-serif !important;
+}

@@ -1,0 +1,65 @@
+<div class="home mb-3">
+  <div class="page-header pt-5 ">
+    <div>
+      <div class="row profile-header">
+        <div class="col-sm-4 col-md-4 col-lg-4">
+          <div class="photo">
+            <img class="profile-photo img-thumbnail" src="../../../../../assets/img/antony-profile-photo.jpeg" alt="">
+          </div>
+        </div>
+        <div class="col-sm-8 col-md-8 col-lg-8 text-center name-container">
+          <div>
+            <h2 class="title-block">Julio Cesar Antony Velasquez Ruiz</h2>
+            <app-slider></app-slider>
+          </div>
+          <div class="social-links">
+            <a href="https://web.facebook.com/tvelasquez3/" target="_blank" title="Facebook">
+              <img src="../../../../../assets/img/icons/facebook-logo.svg" alt="">
+            </a>
+            <a href="https://www.linkedin.com/in/jcantony29/" target="_blank" title="LinkedIn">
+              <img src="../../../../../assets/img/icons/linkedin.svg" alt="">
+            </a>
+            <a href="https://github.com/granchronos" target="_blank" title="github">
+              <img src="../../../../../assets/img/icons/github.svg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row pt-5 pb-4 page-content">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 ps-sm-5">
+        <h2>About <span class="txt-color-1">Me</span></h2>
+        <p class="txt-justify">Bachelor of Systems Engineering, with extensive experience in development FrontEnd and
+          BackEnd, using new
+          technologies, I have advanced knowledge in <span matTooltip="Java 7,8,11"
+                                                           class="java-style">Java</span>, implementing systems built
+          with <span matTooltip="Spring boot, cloud, security, batch, etc"
+                     class="spring-style">Spring</span> and other frameworks,
+          I
+          also have experience and advanced knowledge in <span matTooltip="Angular 4+"
+                                                               class="angular-style">Angular</span>, <span
+            class="ionic-style">Ionic</span>, <span
+            class="react-style">React</span>, <span
+            class="node-style">NodeJs</span>, <span
+            class="kotlin-style">Kotlin</span> also have high capacity
+          for
+          work and responsibility, excellent level of communication.
+          I invite you to visit my repository.</p>
+        <a href="../../../../../assets/files/CV_AntonyVelasquez_SE_v2.pdf" type="button"
+           class="btn btn-outline-secondary mt-4" download="CV-JULIO-VELASQUEZ.pdf">DOWNLOAD RESUME</a>
+      </div>
+      <div class="col-xs-12 col-sm-6 ps-sm-5 mt-4">
+        <table class="table">
+          <tbody>
+          <tr *ngFor="let val of bioModel.details">
+            <td class="table-title w-25">{{val.title}}</td>
+            <td class="table-value w-75">{{val.value}}</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
