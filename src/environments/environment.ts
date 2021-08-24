@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   backend: {
-    host: 'https://portfolio-lmr-default-rtdb.firebaseio.com/'
+    host: 'https://total-projects-jca-default-rtdb.firebaseio.com/'
   }
 };
 
